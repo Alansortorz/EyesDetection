@@ -6,7 +6,7 @@
 
 在OpenCV安装文件下，其实已经有很多训练好的模型，可以直接用。本项目所需要使用到的分类器是人脸检测和人眼检测的模型。路径为：OpenCV\opencv\sources\data\haarcascades
 
-![image-20211218095506384](README.assets/image-20211218095506384.png)
+![image](https://user-images.githubusercontent.com/48275625/146625384-a71d74fa-4940-4e3f-8f45-7074458cfbc0.png)
 
 实际上，还有基于Cuda的分类模型，不需要大家自己去辛苦训练了哈，毕竟找数据集打标签也是一件很麻烦的事情
 
@@ -21,13 +21,9 @@
 ## 关于效果
 
 ### 睁眼效果
-
-![睁眼](%E7%9D%81%E7%9C%BC.png)
-
+![睁眼](https://user-images.githubusercontent.com/48275625/146625400-23eac0ab-e07c-4d6b-ab73-183fbc4eb9e2.png)
 ### 闭眼效果
-
-![闭眼](%E9%97%AD%E7%9C%BC.png)
-
+![闭眼](https://user-images.githubusercontent.com/48275625/146625404-ac5363c6-5767-46aa-b7af-125011f94ca8.png)
 ## 总结
 
 总的来说，效果一般，光线过暗容易检测不到。因为原理限制，只要是脸部上圆形的都会被检测为眼球，因此当你俯视的时候，会把鼻孔也检测为眼球。
